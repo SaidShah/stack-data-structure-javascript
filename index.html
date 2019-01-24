@@ -8,8 +8,33 @@
     </title>
   </head>
   <body>
-      <script type="text/javascript" src="index.js">
+      <label for="input_value">Enter: </label>
+      <input type="text" name="input_value" id="input_value"/>
+      <button  name="push" id="push" style=" background:blue; color: white; font-size:15px;">Push</button>
+        <hr/>
+        <h2 style="margin-left: 40px; text-align: center;">Stack Data Structure In Javascript</h2>
 
-      </script>
+        <div>
+        <button id="pop" name="pop"style="margin-left: 120px; margin-bottom: 20px; background:blue; color: white; font-size:15px;" >PoP</button>
+        </div>
+
+        <div>
+        <p id="length" name="length"style="margin-left: 120px; margin-bottom: 20px;" >Stack Length:
+          <span id="length_value" style="margin-left: 20px;"></span>
+          </p>
+        </div>
+
+        <div>
+        <button id="peek" name="peek"style="margin-left: 120px; margin-bottom: 20px;background:blue; color: white; font-size:15px;" >Peek:
+        </button>
+        <span id="peek_value" style="margin-left: 20px;"></span>
+        </div>
+
+        <h2 style="margin-left: 120px;">The Stack</h2>
+      <ul id="stack_data" name="stack_data" style="margin-left: 120px; margin-bottom: 20px;" >
+
+      </ul>
   </body>
+  <script type="text/javascript" src="index.js">
+  </script>
 </html>
